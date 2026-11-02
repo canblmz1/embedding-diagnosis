@@ -1,0 +1,35 @@
+{
+  "name": "kontrollü saklı-vektör uyumsuzluğu",
+  "passed": true,
+  "counts": {
+    "match": 1,
+    "mismatch": 1,
+    "unknown": 0
+  },
+  "threshold": 0.99999,
+  "samples": [
+    {
+      "id": "chunk-6efec8b79d7d6a986824ca16c6036138",
+      "status": "match",
+      "reason": "cosine_within_declared_tolerance",
+      "cosine": 0.9999999811521038
+    },
+    {
+      "id": "chunk-74009a2c962cfc0cfdf5c75aa45eb993",
+      "status": "mismatch",
+      "reason": "not_reproduced_under_document_contract",
+      "cosine": -0.9999999782285408
+    }
+  ],
+  "diagnosis_counts": {
+    "provider_calls": 1,
+    "encoder_forwards": 1,
+    "encoded_texts": 2
+  },
+  "original_preserved": true,
+  "same_installed_wheel_model_and_native_source": true,
+  "native_controls_disabled": false,
+  "is_real_model_change": false,
+  "is_independent_field_event": false,
+  "finished_at_utc": "2026-10-31T10:09:27.074748+00:00"
+}
